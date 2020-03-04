@@ -1,0 +1,20 @@
+// Это коменнтарий
+
+.wp-block-mytheme-blocks-secondblock {
+    background-color: #524d5b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    &.is-style-squared {
+        border-radius: 0px;
+    }
+    &.is-style-outline {
+        border-radius: 0px;
+        border: 2px solid currentColor;
+    }
+}
+
+// Убрать комеент
+.test_class {
+    color:red;
+}
